@@ -8,5 +8,10 @@ namespace QuizApp
 {
     internal class Teacher
     {
+        int teacherID;
+        string firstName;
+        string lastName;
+        string email;
+        string password;
     }
 }

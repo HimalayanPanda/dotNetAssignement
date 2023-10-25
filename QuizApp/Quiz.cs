@@ -8,5 +8,9 @@ namespace QuizApp
 {
     internal class Quiz
     {
+        int quizID;
+        int length;
+        string category;
+       // Each quiz contains a collection / lists of question objects.
     }
 }

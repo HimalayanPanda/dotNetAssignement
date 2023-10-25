@@ -8,5 +8,8 @@ namespace QuizApp
 {
     internal class Question
     {
+        int questionID;
+        string questionText;
+        string answer;
     }
 }
