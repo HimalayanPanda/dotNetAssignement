@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace QuizApp.Model
 {
     [Table("QuizSessions")]
-    public class QuizSessions
+    public class QuizSession
     {
         [Key]
         public int ID { get; set; }
