@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QuizApp.Model
 {
-    [Table("QuestionAllocations")]
-    public class QuestionAllocation
+    [Table("QuizSessions")]
+    public class QuizSessions
     {
         [Key]
         public int ID { get; set; }
@@ -15,10 +15,10 @@ namespace QuizApp.Model
         [Required]
         public int QuizID { get; set; }
 
-        public Question Question { get; set; }
+        public Student Student { get; set; }
 
-        [ForeignKey("Question")]
+        [ForeignKey("Student")]
         [Required]
-        public int QuestionID { get; set; }
+        public int StudentID { get; set; }
     }
 }

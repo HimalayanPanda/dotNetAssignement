@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "ekzXQjydeGmqo/Ck31am9eonWCBl+csanEBjHT2PbtOZJH5fqg36P8eR4pS8I0f6TpYcHsohvk03e6+tBLtS9A==",
+  "dgSpecHash": "cHc3siW5vTWy9tYtJFXn5wnjZNcIWm4aGkc95KCE0pT7TVXnLpJCB2yxM+eNFniu6F3/DBHr8IsUeoqFPFQ8kA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hrida\\Source\\Repos\\HimalayanPanda\\dotNetAssignement\\QuizApp\\QuizApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\adity\\source\\repos\\dotNetAssignement\\QuizApp\\QuizApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\adity\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
