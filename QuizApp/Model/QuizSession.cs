@@ -20,5 +20,10 @@ namespace QuizApp.Model
         [ForeignKey("Student")]
         [Required]
         public int StudentID { get; set; }
+
+        [Required]
+        public bool IsFinished { get; set; }
+
+        public double Marks {  get; set; }
     }
 }

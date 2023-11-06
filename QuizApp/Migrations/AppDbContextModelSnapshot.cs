@@ -152,6 +152,12 @@ namespace QuizApp.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Marks")
+                        .HasColumnType("float");
+
                     b.Property<int>("QuizID")
                         .HasColumnType("int");
 

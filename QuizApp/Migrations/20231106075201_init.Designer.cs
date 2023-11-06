@@ -12,7 +12,7 @@ using QuizApp.Data;
 namespace QuizApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231105014908_init")]
+    [Migration("20231106075201_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -154,6 +154,12 @@ namespace QuizApp.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<bool>("IsFinished")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Marks")
+                        .HasColumnType("float");
 
                     b.Property<int>("QuizID")
                         .HasColumnType("int");
