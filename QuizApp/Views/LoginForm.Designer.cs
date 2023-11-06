@@ -1,6 +1,6 @@
 ﻿namespace QuizApp
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,33 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            label2 = new Label();
-            label3 = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
             pictureBox2 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(373, 153);
-            label2.Name = "label2";
-            label2.Size = new Size(54, 25);
-            label2.TabIndex = 1;
-            label2.Text = "Email";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(361, 212);
-            label3.Name = "label3";
-            label3.Size = new Size(87, 25);
-            label3.TabIndex = 2;
-            label3.Text = "Password";
             // 
             // textBox1
             // 
@@ -76,7 +59,7 @@
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 5;
-            button1.Text = "Register";
+            button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
@@ -89,19 +72,48 @@
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
             // 
-            // Form1
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(402, 153);
+            label1.Name = "label1";
+            label1.Size = new Size(58, 25);
+            label1.TabIndex = 8;
+            label1.Text = "Email:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(373, 212);
+            label2.Name = "label2";
+            label2.Size = new Size(91, 25);
+            label2.TabIndex = 9;
+            label2.Text = "Password:";
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(276, 263);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(75, 25);
+            linkLabel1.TabIndex = 10;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Register";
+            // 
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1143, 750);
+            Controls.Add(linkLabel1);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(pictureBox2);
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
             Margin = new Padding(4, 5, 4, 5);
-            Name = "Form1";
+            Name = "LoginForm";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -110,11 +122,12 @@
         }
 
         #endregion
-        private Label label2;
-        private Label label3;
         private TextBox textBox1;
         private TextBox textBox2;
         private Button button1;
         private PictureBox pictureBox2;
+        private Label label1;
+        private Label label2;
+        private LinkLabel linkLabel1;
     }
 }

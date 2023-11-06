@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "PUc72hq7+6elPgsUDCxNS4lYrzqQQwo3/x2XC+lYoMqgmH82RjTwHCmdxyV8BVf15GrlkWcrcyUY59MxNnF7wg==",
@@ -66,4 +67,13 @@
     "C:\\Users\\adity\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "ReGdsFHGm8Uni7dnoZZHheneAfzeRH1gMw0KKxHwmID0BLxYKHuDSKfCnoS6stFz3zBiPs48phu9JRLErA0TBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hrida\\source\\repos\\HimalayanPanda\\dotNetAssignement\\QuizApp\\QuizApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> origin/main
 }

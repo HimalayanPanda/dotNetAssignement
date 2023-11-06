@@ -1,8 +1,8 @@
 namespace QuizApp
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -22,9 +22,5 @@ namespace QuizApp
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }
