@@ -34,6 +34,7 @@
             label1 = new Label();
             listBox1 = new ListBox();
             button1 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -64,33 +65,43 @@
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(303, 45);
             label1.Name = "label1";
-            label1.Size = new Size(138, 32);
+            label1.Size = new Size(164, 32);
             label1.TabIndex = 20;
-            label1.Text = "Select Class";
+            label1.Text = "Select Subject";
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
             listBox1.ItemHeight = 25;
-            listBox1.Location = new Point(250, 121);
+            listBox1.Location = new Point(189, 141);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(221, 154);
+            listBox1.Size = new Size(460, 204);
             listBox1.TabIndex = 21;
             // 
             // button1
             // 
-            button1.Location = new Point(473, 321);
+            button1.Location = new Point(537, 382);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 22;
             button1.Text = "Select";
             button1.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(202, 97);
+            label2.Name = "label2";
+            label2.Size = new Size(383, 25);
+            label2.TabIndex = 23;
+            label2.Text = "Select subject which you want to make quiz for";
+            // 
             // CreateQuizForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(listBox1);
             Controls.Add(label1);
@@ -111,5 +122,6 @@
         private Label label1;
         private ListBox listBox1;
         private Button button1;
+        private Label label2;
     }
 }

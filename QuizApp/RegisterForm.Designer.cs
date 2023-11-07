@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             pictureBox2 = new PictureBox();
-            label1 = new Label();
-            textBox1 = new TextBox();
             label2 = new Label();
             textBox2 = new TextBox();
             label3 = new Label();
@@ -52,26 +50,10 @@
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(242, 182);
-            label1.Name = "label1";
-            label1.Size = new Size(63, 25);
-            label1.TabIndex = 9;
-            label1.Text = "Name:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(311, 179);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(215, 31);
-            textBox1.TabIndex = 10;
-            // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(246, 240);
+            label2.Location = new Point(229, 180);
             label2.Name = "label2";
             label2.Size = new Size(58, 25);
             label2.TabIndex = 11;
@@ -79,7 +61,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(311, 234);
+            textBox2.Location = new Point(293, 177);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(215, 31);
             textBox2.TabIndex = 12;
@@ -87,7 +69,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(217, 292);
+            label3.Location = new Point(196, 233);
             label3.Name = "label3";
             label3.Size = new Size(91, 25);
             label3.TabIndex = 13;
@@ -95,14 +77,15 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(311, 292);
+            textBox3.Location = new Point(293, 233);
             textBox3.Name = "textBox3";
+            textBox3.PasswordChar = '*';
             textBox3.Size = new Size(215, 31);
             textBox3.TabIndex = 14;
             // 
             // button1
             // 
-            button1.Location = new Point(541, 333);
+            button1.Location = new Point(485, 295);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 15;
@@ -113,16 +96,16 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(291, 112);
+            label4.Location = new Point(237, 112);
             label4.Name = "label4";
-            label4.Size = new Size(217, 32);
+            label4.Size = new Size(293, 32);
             label4.TabIndex = 16;
-            label4.Text = "Create an Account!";
+            label4.Text = "Create a Student Account!";
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(120, 333);
+            linkLabel1.Location = new Point(126, 295);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(56, 25);
             linkLabel1.TabIndex = 17;
@@ -133,7 +116,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(797, 463);
             Controls.Add(linkLabel1);
             Controls.Add(label4);
             Controls.Add(button1);
@@ -141,8 +124,6 @@
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
             Controls.Add(pictureBox2);
             Name = "RegisterForm";
             Text = "RegisterForm";
@@ -154,8 +135,6 @@
         #endregion
 
         private PictureBox pictureBox2;
-        private Label label1;
-        private TextBox textBox1;
         private Label label2;
         private TextBox textBox2;
         private Label label3;

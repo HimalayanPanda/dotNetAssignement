@@ -1,6 +1,6 @@
 ﻿namespace QuizApp
 {
-    partial class JoinClassForm
+    partial class JoinSubjectForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JoinClassForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JoinSubjectForm));
             pictureBox2 = new PictureBox();
             label1 = new Label();
             pictureBox1 = new PictureBox();
             checkedListBox1 = new CheckedListBox();
             button1 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -41,7 +42,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(44, 27);
+            pictureBox2.Location = new Point(41, 13);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(164, 77);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -54,9 +55,9 @@
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(320, 49);
             label1.Name = "label1";
-            label1.Size = new Size(178, 41);
+            label1.Size = new Size(200, 41);
             label1.TabIndex = 10;
-            label1.Text = "Join a Class!";
+            label1.Text = "Join a Subject";
             // 
             // pictureBox1
             // 
@@ -71,25 +72,35 @@
             // checkedListBox1
             // 
             checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(182, 120);
+            checkedListBox1.Location = new Point(172, 174);
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(469, 172);
             checkedListBox1.TabIndex = 12;
             // 
             // button1
             // 
-            button1.Location = new Point(560, 321);
+            button1.Location = new Point(564, 374);
             button1.Name = "button1";
             button1.Size = new Size(112, 34);
             button1.TabIndex = 13;
             button1.Text = "Join";
             button1.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(217, 126);
+            label2.Name = "label2";
+            label2.Size = new Size(377, 25);
+            label2.TabIndex = 14;
+            label2.Text = "Please select the subject you would like to join";
+            // 
             // JoinClassForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(button1);
             Controls.Add(checkedListBox1);
             Controls.Add(pictureBox1);
@@ -110,5 +121,6 @@
         private PictureBox pictureBox1;
         private CheckedListBox checkedListBox1;
         private Button button1;
+        private Label label2;
     }
 }

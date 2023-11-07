@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultsViewForm));
             pictureBox2 = new PictureBox();
             label1 = new Label();
+            tableLayoutPanel1 = new TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -54,11 +55,25 @@
             label1.TabIndex = 14;
             label1.Text = "View Quiz Results";
             // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 77.6666641F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 22.333334F));
+            tableLayoutPanel1.Location = new Point(205, 113);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Size = new Size(405, 81);
+            tableLayoutPanel1.TabIndex = 15;
+            // 
             // ResultsViewForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
             Name = "ResultsViewForm";
@@ -72,5 +87,6 @@
 
         private PictureBox pictureBox2;
         private Label label1;
+        private TableLayoutPanel tableLayoutPanel1;
     }
 }

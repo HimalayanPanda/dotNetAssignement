@@ -4,7 +4,16 @@
     <Compile Update="AddQuizDetailsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CreateClassForm.cs">
+    <Compile Update="AddStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddTeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AdminDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CreateSubjectForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CreateQuizForm.cs">
@@ -22,7 +31,7 @@
     <Compile Update="QuizQuestionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="JoinClassForm.cs">
+    <Compile Update="JoinSubjectForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="LoginForm.cs">
@@ -35,6 +44,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewAvailableQuizzesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewUsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -34,6 +34,7 @@
             label1 = new Label();
             label2 = new Label();
             listBox1 = new ListBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -71,7 +72,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(81, 121);
+            label2.Location = new Point(103, 125);
             label2.Name = "label2";
             label2.Size = new Size(306, 25);
             label2.TabIndex = 14;
@@ -83,14 +84,24 @@
             listBox1.ItemHeight = 25;
             listBox1.Location = new Point(103, 172);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(580, 204);
+            listBox1.Size = new Size(580, 154);
             listBox1.TabIndex = 15;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(582, 368);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 16;
+            button1.Text = "Take Quiz";
+            button1.UseVisualStyleBackColor = true;
             // 
             // ViewAvailableQuizzesForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(listBox1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -111,5 +122,6 @@
         private Label label1;
         private Label label2;
         private ListBox listBox1;
+        private Button button1;
     }
 }

@@ -19,7 +19,6 @@ C:\Users\hrida\source\repos\HimalayanPanda\dotNetAssignement\QuizApp\bin\Debug\n
 C:\Users\hrida\source\repos\HimalayanPanda\dotNetAssignement\QuizApp\bin\Debug\net6.0-windows\QuizApp.runtimeconfig.json
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\bin\Debug\net6.0-windows\QuizApp.dll
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\bin\Debug\net6.0-windows\QuizApp.pdb
-C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.DashboardForm.resources
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.LoginForm.resources
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.Properties.Resources.resources
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.RegisterForm.resources
@@ -33,3 +32,13 @@ C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\n
 C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.pdb
 C:\Users\hrida\source\repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.genruntimeconfig.cache
 C:\Users\hrida\source\repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\ref\QuizApp.dll
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.AddQuestionForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.AddQuizDetailsForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.CreateQuizForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.CreateSubjectForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.JoinClassForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.QuizQuestionForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.ResultsViewForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.StudentDashboardForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.TeacherDashboardForm.resources
+C:\Users\hrida\Source\Repos\HimalayanPanda\dotNetAssignement\QuizApp\obj\Debug\net6.0-windows\QuizApp.ViewAvailableQuizzesForm.resources

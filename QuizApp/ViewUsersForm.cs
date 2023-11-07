@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuizApp
 {
-    public partial class JoinClassForm : Form
+    public partial class ViewUsersForm : Form
     {
-        public JoinClassForm()
+        public ViewUsersForm()
         {
             InitializeComponent();
         }
