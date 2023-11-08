@@ -110,7 +110,7 @@
             checkBox1.TabIndex = 22;
             checkBox1.Text = "AnswerA";
             checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            
             // 
             // checkBox2
             // 
@@ -121,7 +121,7 @@
             checkBox2.TabIndex = 23;
             checkBox2.Text = "AnswerB";
             checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+        
             // 
             // checkBox3
             // 
@@ -132,7 +132,7 @@
             checkBox3.TabIndex = 24;
             checkBox3.Text = "AnswerC";
             checkBox3.UseVisualStyleBackColor = true;
-            checkBox3.CheckedChanged += checkBox3_CheckedChanged;
+            
             // 
             // checkBox4
             // 
@@ -143,7 +143,7 @@
             checkBox4.TabIndex = 25;
             checkBox4.Text = "AnswerD";
             checkBox4.UseVisualStyleBackColor = true;
-            checkBox4.CheckedChanged += checkBox4_CheckedChanged;
+            
             // 
             // QuizQuestionForm
             // 

@@ -21,6 +21,12 @@ namespace QuizApp
         private void button1_Click(object sender, EventArgs e)
         {
             // Allocate student to subject
+            /*
+             * foreach (object item in listBox1.SelectedItems)
+            {
+            student.Subjects.Add(item.ToString());
+            }
+            */
 
 
 
@@ -29,6 +35,22 @@ namespace QuizApp
             this.Hide();
             studentDashboardForm.Show();
 
+
+        }
+
+        private void displaySubjects()
+        {
+            /*
+         for subject in subjects 
+        listBox1.Items.Add(Subject);
+         
+        */
+
+
+        }
+        
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

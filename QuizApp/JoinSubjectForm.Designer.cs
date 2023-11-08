@@ -76,6 +76,7 @@
             checkedListBox1.Name = "checkedListBox1";
             checkedListBox1.Size = new Size(469, 172);
             checkedListBox1.TabIndex = 12;
+            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
             // 
             // button1
             // 

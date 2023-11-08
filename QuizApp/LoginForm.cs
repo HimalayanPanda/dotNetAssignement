@@ -45,12 +45,24 @@ namespace QuizApp
 
 
             // if teacher open teacher dashboard
+            /*
+            TeacherDashboardForm teacherDashboardForm = new TeacherDashboardForm();
+            this.Hide();
+            teacherDashboardForm.Show();
+            */
 
 
             // if admin open admin dashboard
+            /*
+            AdminDashboardForm adminDashboardForm = new AdminDashboardForm();
+            this.Hide();
+            adminDashboardForm.Show();
+            */
 
 
             // if user does not exist show message
+            // MessageBox.Show("Incorrect Login Details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
 
 
         }
