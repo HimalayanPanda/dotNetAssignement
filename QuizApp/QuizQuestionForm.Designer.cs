@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuizQuestionForm));
             label1 = new Label();
             pictureBox2 = new PictureBox();
             label2 = new Label();
@@ -54,7 +53,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.Screenshot_2023_10_25_134140;
             pictureBox2.Location = new Point(12, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(133, 73);

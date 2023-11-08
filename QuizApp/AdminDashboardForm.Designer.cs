@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminDashboardForm));
             label1 = new Label();
             button3 = new Button();
             button2 = new Button();
@@ -77,7 +76,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources._4038155_200;
             pictureBox1.Location = new Point(688, 62);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(63, 63);
@@ -87,7 +86,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.Screenshot_2023_10_25_134140;
             pictureBox2.Location = new Point(271, 62);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(225, 99);

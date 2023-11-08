@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddStudentForm));
             button1 = new Button();
             textBox3 = new TextBox();
             label3 = new Label();
@@ -104,7 +103,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources._4038155_200;
             pictureBox1.Location = new Point(718, 37);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(63, 63);
@@ -114,7 +113,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.Screenshot_2023_10_25_134140;
             pictureBox2.Location = new Point(17, 37);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(122, 65);

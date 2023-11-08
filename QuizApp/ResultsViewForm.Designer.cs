@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultsViewForm));
             pictureBox2 = new PictureBox();
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -37,7 +36,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.Screenshot_2023_10_25_134140;
             pictureBox2.Location = new Point(27, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(133, 73);

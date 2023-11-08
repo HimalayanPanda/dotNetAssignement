@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddTeacherForm));
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -62,7 +61,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources._4038155_200;
             pictureBox1.Location = new Point(724, 24);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(63, 63);
@@ -72,7 +71,7 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Image = Properties.Resources.Screenshot_2023_10_25_134140;
             pictureBox2.Location = new Point(23, 24);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(122, 65);
