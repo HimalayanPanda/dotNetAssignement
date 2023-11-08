@@ -275,5 +275,26 @@ namespace QuizApp.Data
             var s = _context.Subjects.First(sub => sub.Name == name);
             return s.ID;
         }
+
+        public int startQuiz(int quizID, int studentID)
+        {
+            _context.QuizSessions.Add(new QuizSession { QuizID = quizID, StudentID = studentID, IsFinished = false });
+            _context.SaveChanges();
+            var id = from s in _context.QuizSessions
+                     where s.QuizID == quizID && s.StudentID == studentID
+                     select s.ID;
+            return id.First();
+        }
+
+        public void finishQuiz(int quizSessionID, double marks)
+        {
+            var result = _context.QuizSessions.SingleOrDefault(s => s.ID == quizSessionID);
+            if (result != null)
+            {
+                result.Marks = marks;
+                result.IsFinished = true;
+                _context.SaveChanges();
+            }
+        }
     }
 }
