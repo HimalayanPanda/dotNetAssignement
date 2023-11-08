@@ -16,5 +16,10 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+        // Table with all users 
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+            // Populate table with users from database.
+        }
     }
 }

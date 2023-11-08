@@ -18,5 +18,36 @@ namespace QuizApp
         }
 
 
+        // Join Subject Button is pressed
+        private void button1_Click(object sender, EventArgs e)
+        {
+            JoinSubjectForm joinSubjectForm = new JoinSubjectForm();
+            this.Hide();
+            joinSubjectForm.Show();
+
+        }
+
+        // Take a quiz button is pressed in dashboard
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ViewAvailableQuizzesForm viewAvailableQuizzesForm = new ViewAvailableQuizzesForm();
+            this.Hide();
+            viewAvailableQuizzesForm.Show();
+
+        }
+
+        // Results button is pressed in dashboard
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ResultsViewForm resultsViewForm = new ResultsViewForm();
+            this.Hide();
+            resultsViewForm.Show();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

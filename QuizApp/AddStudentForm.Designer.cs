@@ -50,6 +50,7 @@
             button1.TabIndex = 42;
             button1.Text = "Add Student";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox3
             // 

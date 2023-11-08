@@ -16,5 +16,20 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Add question to quiz
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Add question to quiz with relevant fields and data
+
+        }
+        // Create quiz button is pressed
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Create quiz with questions which were added
+            TeacherDashboardForm teacherDashboardForm = new TeacherDashboardForm();
+            this.Hide();
+            teacherDashboardForm.Show();
+        }
     }
 }

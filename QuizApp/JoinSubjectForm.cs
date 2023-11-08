@@ -16,5 +16,20 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Join Button is pressed (join subject)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Allocate student to subject
+
+
+
+            // Once student is allocated
+            StudentDashboardForm studentDashboardForm = new StudentDashboardForm();
+            this.Hide();
+            studentDashboardForm.Show();
+
+
+        }
     }
 }

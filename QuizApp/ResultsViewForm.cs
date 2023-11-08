@@ -16,5 +16,11 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Results table
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+           // Populate table with quiz title on first colomn and mark on second coloumn.
+        }
     }
 }

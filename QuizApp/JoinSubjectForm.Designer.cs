@@ -85,6 +85,7 @@
             button1.TabIndex = 13;
             button1.Text = "Join";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
@@ -95,7 +96,7 @@
             label2.TabIndex = 14;
             label2.Text = "Please select the subject you would like to join";
             // 
-            // JoinClassForm
+            // JoinSubjectForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -106,7 +107,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
-            Name = "JoinClassForm";
+            Name = "JoinSubjectForm";
             Text = "JoinClassForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -106,6 +106,7 @@
             button1.TabIndex = 26;
             button1.Text = "Add Question";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -115,6 +116,7 @@
             button2.TabIndex = 27;
             button2.Text = "Create Quiz";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label3
             // 

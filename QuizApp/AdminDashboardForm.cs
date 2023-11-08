@@ -16,5 +16,33 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Add teacher button is pressed
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddTeacherForm addTeacherForm = new AddTeacherForm();
+            this.Hide();
+            addTeacherForm.Show();
+
+
+        }
+
+        // Add student button is pressed 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddStudentForm addStudentForm = new AddStudentForm();
+            this.Hide();
+            addStudentForm.Show();
+
+        }
+
+        // View users button is pressed
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ViewUsersForm viewUsersForm = new ViewUsersForm();
+            this.Hide();
+            viewUsersForm.Show();
+
+        }
     }
 }

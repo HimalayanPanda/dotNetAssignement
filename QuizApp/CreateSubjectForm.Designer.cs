@@ -93,8 +93,9 @@
             button1.TabIndex = 23;
             button1.Text = "Create";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // CreateClassForm
+            // CreateSubjectForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -105,7 +106,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
-            Name = "CreateClassForm";
+            Name = "CreateSubjectForm";
             Text = "CreateClassForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

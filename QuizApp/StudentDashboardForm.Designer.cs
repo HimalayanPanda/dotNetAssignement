@@ -67,6 +67,7 @@
             button1.TabIndex = 10;
             button1.Text = "Join Subject";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -76,6 +77,7 @@
             button2.TabIndex = 11;
             button2.Text = "Take A Quiz";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -85,6 +87,7 @@
             button3.TabIndex = 12;
             button3.Text = "Results";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // label1
             // 
@@ -94,6 +97,7 @@
             label1.Size = new Size(96, 25);
             label1.TabIndex = 13;
             label1.Text = "Student ID";
+            label1.Click += label1_Click;
             // 
             // StudentDashboardForm
             // 

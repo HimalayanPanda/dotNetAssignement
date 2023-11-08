@@ -16,5 +16,21 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Create Quiz Subjects Avalilable
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Display subjects available or created by teacher for which a quiz can be created.
+
+        }
+
+        // Select Subject button is pressed
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddQuizDetailsForm addQuizDetailsForm = new AddQuizDetailsForm();
+            this.Hide();
+            addQuizDetailsForm.Show();
+
+        }
     }
 }

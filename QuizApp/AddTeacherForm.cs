@@ -16,5 +16,16 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Add teacher button is pressed
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Add teacher with value in field box
+            
+            AdminDashboardForm adminDashboardForm = new AdminDashboardForm();
+            this.Hide();
+            adminDashboardForm.Show();
+
+        }
     }
 }

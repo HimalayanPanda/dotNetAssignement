@@ -16,5 +16,10 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+        // Add student button is pressed
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // add student object in database with values from textbox.
+        }
     }
 }

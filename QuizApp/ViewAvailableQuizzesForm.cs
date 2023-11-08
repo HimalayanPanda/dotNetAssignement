@@ -16,5 +16,22 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // List box with available quizzes to take
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // List all available Quizzes for student from enrolled subjects
+        }
+
+        // Take Quiz Button is pressed for selected quiz
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Start quiz session for quiz 
+
+            QuizQuestionForm quizQuestionForm = new QuizQuestionForm();
+            this.Hide();
+            quizQuestionForm.Show();
+
+        }
     }
 }

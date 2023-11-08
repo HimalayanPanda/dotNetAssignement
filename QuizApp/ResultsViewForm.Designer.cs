@@ -67,6 +67,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Size = new Size(405, 81);
             tableLayoutPanel1.TabIndex = 15;
+            tableLayoutPanel1.Paint += tableLayoutPanel1_Paint;
             // 
             // ResultsViewForm
             // 

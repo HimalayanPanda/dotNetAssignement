@@ -16,5 +16,13 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Create subject button is clicked
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Validate class ( check if class exixts or not)
+            // if not create class.
+
+        }
     }
 }

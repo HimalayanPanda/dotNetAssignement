@@ -29,102 +29,91 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
-            pictureBox2 = new PictureBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            label3 = new Label();
-            textBox3 = new TextBox();
-            button1 = new Button();
-            label4 = new Label();
             linkLabel1 = new LinkLabel();
+            label2 = new Label();
+            label1 = new Label();
+            pictureBox2 = new PictureBox();
+            button1 = new Button();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(246, 12);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(284, 76);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 8;
-            pictureBox2.TabStop = false;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(229, 180);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 25);
-            label2.TabIndex = 11;
-            label2.Text = "Email:";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(293, 177);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(215, 31);
-            textBox2.TabIndex = 12;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(196, 233);
-            label3.Name = "label3";
-            label3.Size = new Size(91, 25);
-            label3.TabIndex = 13;
-            label3.Text = "Password:";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(293, 233);
-            textBox3.Name = "textBox3";
-            textBox3.PasswordChar = '*';
-            textBox3.Size = new Size(215, 31);
-            textBox3.TabIndex = 14;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(485, 295);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 15;
-            button1.Text = "Register";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(237, 112);
-            label4.Name = "label4";
-            label4.Size = new Size(293, 32);
-            label4.TabIndex = 16;
-            label4.Text = "Create a Student Account!";
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(126, 295);
+            linkLabel1.Location = new Point(101, 287);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(56, 25);
             linkLabel1.TabIndex = 17;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Login";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(198, 236);
+            label2.Name = "label2";
+            label2.Size = new Size(91, 25);
+            label2.TabIndex = 16;
+            label2.Text = "Password:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(227, 177);
+            label1.Name = "label1";
+            label1.Size = new Size(58, 25);
+            label1.TabIndex = 15;
+            label1.Text = "Email:";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(237, 52);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(284, 76);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 14;
+            pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(600, 287);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 13;
+            button1.Text = "Register";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(291, 233);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(246, 31);
+            textBox2.TabIndex = 12;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(291, 174);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(246, 31);
+            textBox1.TabIndex = 11;
             // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(797, 463);
+            ClientSize = new Size(800, 450);
             Controls.Add(linkLabel1);
-            Controls.Add(label4);
-            Controls.Add(button1);
-            Controls.Add(textBox3);
-            Controls.Add(label3);
-            Controls.Add(textBox2);
             Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(pictureBox2);
+            Controls.Add(button1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Name = "RegisterForm";
             Text = "RegisterForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -134,13 +123,12 @@
 
         #endregion
 
-        private PictureBox pictureBox2;
-        private Label label2;
-        private TextBox textBox2;
-        private Label label3;
-        private TextBox textBox3;
-        private Button button1;
-        private Label label4;
         private LinkLabel linkLabel1;
+        private Label label2;
+        private Label label1;
+        private PictureBox pictureBox2;
+        private Button button1;
+        private TextBox textBox2;
+        private TextBox textBox1;
     }
 }

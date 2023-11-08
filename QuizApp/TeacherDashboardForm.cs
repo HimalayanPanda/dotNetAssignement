@@ -16,5 +16,28 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Create Class button is clicked
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CreateSubjectForm createSubjectForm = new CreateSubjectForm();
+            this.Hide();
+            createSubjectForm.Show();
+
+        }
+        // Create  Quiz button is pressed in dashboard
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CreateQuizForm createQuizForm = new CreateQuizForm();
+            this.Hide();
+            createQuizForm.Show();
+        }
+
+        // Results button is pressed 
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }

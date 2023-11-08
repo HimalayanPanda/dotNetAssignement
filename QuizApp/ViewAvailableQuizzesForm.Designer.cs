@@ -86,6 +86,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(580, 154);
             listBox1.TabIndex = 15;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // button1
             // 
@@ -95,6 +96,7 @@
             button1.TabIndex = 16;
             button1.Text = "Take Quiz";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // ViewAvailableQuizzesForm
             // 

@@ -61,6 +61,7 @@
             button1.TabIndex = 5;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox2
             // 
@@ -99,6 +100,7 @@
             linkLabel1.TabIndex = 10;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Register";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // LoginForm
             // 

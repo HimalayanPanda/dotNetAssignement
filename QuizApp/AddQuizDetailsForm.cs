@@ -16,5 +16,13 @@ namespace QuizApp
         {
             InitializeComponent();
         }
+
+        // Next button is pressed after adding quiz details
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddQuestionForm addQuestionForm = new AddQuestionForm();
+            this.Hide();
+            addQuestionForm.Show();
+        }
     }
 }

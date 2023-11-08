@@ -121,6 +121,7 @@
             button1.TabIndex = 33;
             button1.Text = "Add Teacher";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // AddTeacherForm
             // 

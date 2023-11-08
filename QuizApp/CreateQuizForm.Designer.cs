@@ -77,6 +77,7 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(460, 204);
             listBox1.TabIndex = 21;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // button1
             // 
@@ -86,6 +87,7 @@
             button1.TabIndex = 22;
             button1.Text = "Select";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label2
             // 
